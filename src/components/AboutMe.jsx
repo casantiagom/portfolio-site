@@ -1,7 +1,6 @@
 import React from "react"
 
 import me from "../images/me.png"
-import Layout from "./layout"
 import "./AboutMe.css"
 
 const AboutMe = () => {
