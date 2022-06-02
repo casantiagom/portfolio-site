@@ -11,7 +11,6 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 const IndexPage = () => (
   <Layout>
     <Reel />
-    <Seo title="Home" />
   </Layout>
 )
 
