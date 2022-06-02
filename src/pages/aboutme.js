@@ -2,7 +2,7 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 
-import AboutMe from "../components/aboutme"
+import AboutMe from "../components/AboutMe"
 
 const IndexPage = () => (
   <Layout>
