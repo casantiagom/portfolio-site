@@ -1,13 +1,12 @@
 import React from "react"
 
-import me from "../images/me.png"
 import "./AboutMe.css"
 
 const AboutMe = () => {
   return (
     <div className="main">
       <div className="container">
-        <img className="container__image" src={me} />
+        <img className="container__image" src="../images/me.png" />
         <div className="container__text">
           <h2>About Me</h2>
           <p>
