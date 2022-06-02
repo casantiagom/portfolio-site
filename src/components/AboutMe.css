@@ -30,17 +30,19 @@
 
 .main {
   margin-bottom: 10rem;
+}
+.container {
+  margin: 0 auto;
+  max-width: 780px;
+  padding: 40px;
+  padding-bottom: 100px;
+  background-color: #74959a;
+  color: var(--color-primary);
   box-shadow: var(
     --menuBoxShadow,
     0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 1px 2px 0 rgba(0, 0, 0, 0.24)
   );
-}
-.container {
-  padding: 40px;
-  padding-bottom: 100px;
-  background-color: #74959a;
-  color: var(--color-primary);
 }
 img {
   width: 250px;

@@ -28,28 +28,8 @@ const Layout = ({ children }) => {
       <div className="back">
         <NavBar />
 
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: `var(--size-content)`,
-            padding: `var(--size-gutter)`,
-          }}
-        >
+        <div style={{}}>
           <main>{children}</main>
-          <footer
-            style={{
-              marginTop: `var(--space-5)`,
-              fontSize: `var(--font-sm)`,
-              display: "block",
-              color: "white",
-              margin: "auto",
-              width: "40%",
-              padding: "50px",
-            }}
-          >
-            © {new Date().getFullYear()} &middot; Carlos Santiago
-            {` `}
-          </footer>
         </div>
       </div>
     </>

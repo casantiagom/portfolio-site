@@ -3,7 +3,7 @@ import "./reel.css"
 
 const Reel = () => {
   return (
-    <div className="video">
+    <div className="reel">
       <iframe
         width="800"
         height="450"
