@@ -12,11 +12,11 @@ const ContactMe = () => {
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="contact" />
         <label>
-          Name
+          Name&nbsp;&nbsp;
           <input type="text" name="name" id="name" />
         </label>
         <label>
-          Email
+          Email&nbsp;
           <input type="email" name="email" id="email" />
         </label>
         <label>
@@ -25,10 +25,9 @@ const ContactMe = () => {
         </label>
         <label>
           Message
-          <textarea name="message" id="message" rows="5" />
+          <textarea name="message" id="message" rows="10" />
         </label>
         <button type="submit">Send</button>
-        <input type="reset" value="Clear" />
       </form>
     </div>
   )
