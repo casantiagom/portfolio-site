@@ -5,8 +5,8 @@ const Reel = () => {
   return (
     <div className="reel">
       <iframe
-        width="560"
-        height="315"
+        width="800"
+        height="450"
         src="https://www.youtube.com/embed/L4U_rbY8sVM"
         title="YouTube video player"
         frameborder="0"
